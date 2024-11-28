@@ -13,7 +13,6 @@ h1 {
     width: 100vw;
     align-self: center;
     justify-self: center;
-    height: 100vh;
 }
 
 .resetButton {
@@ -25,3 +24,11 @@ h1 {
     cursor: pointer;
 }
 
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label input {
+    margin: 5px;
+}

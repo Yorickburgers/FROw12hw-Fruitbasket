@@ -16,7 +16,6 @@ function FruitCounter({counterName, counterValue, whenPressed}) {
                     onClick={() => whenPressed(+1)}
                 >+
                 </button>
-
             </article>
         </>
     );
