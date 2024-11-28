@@ -1,0 +1,14 @@
+.fruitCounterContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.fruitCounterContent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.fruitCounterContent button {
+    margin: 10px;
+}
