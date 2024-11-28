@@ -1,14 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    justify-self: center;
+}
+
 .fruitCounterContainer {
     display: flex;
     flex-direction: column;
-}
-
-.fruitCounterContent {
-    display: flex;
-    flex-direction: row;
     align-items: center;
+    width: 100vw;
+    align-self: center;
+    justify-self: center;
+    height: 100vh;
 }
 
-.fruitCounterContent button {
+.resetButton {
+    width: 400px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
     margin: 10px;
+    cursor: pointer;
 }
+

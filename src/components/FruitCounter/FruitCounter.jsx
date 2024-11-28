@@ -1,28 +1,25 @@
 import './FruitCounter.css';
-import React from "react";
- 
-function FruitCounter({counterName, }) {
-const [counter, setCounter] = React.useState(0);
 
-return (
-<>
-    <article className="fruitCounterContent">
-        <h2>{counterName}</h2>
-        <button
-            type="button"
-            onClick={() => setCounter(counter !== 0 ? counter-1 : 0)}
-        >-
-        </button>
-        <p>{counter}</p>
-        <button
-            type="button"
-            onClick={() => setCounter(counter+1)}
-        >+
-        </button>
+function FruitCounter({counterName, counterValue, whenPressed}) {
+    return (
+        <>
+            <article className="fruitCounterContent">
+                <h2>{counterName}</h2>
+                <button
+                    type="button"
+                    onClick={() => {counterValue !== 0 ? whenPressed(-1) : 0}}
+                >-
+                </button>
+                <p>{counterValue}</p>
+                <button
+                    type="button"
+                    onClick={() => whenPressed(+1)}
+                >+
+                </button>
 
-    </article>
-</>
-);
+            </article>
+        </>
+    );
 }
 
 export default FruitCounter;
