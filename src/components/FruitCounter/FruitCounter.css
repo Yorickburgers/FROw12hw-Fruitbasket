@@ -1,0 +1,36 @@
+.fruitCounterContent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 5px 0;
+    max-width: 380px;
+    min-width: 250px;
+    align-content: center;
+    justify-content: center;
+}
+
+.fruitCounterContent button {
+    margin: 10px;
+}
+
+.counterButton {
+    padding: 5px 8px 5px 8px;
+    border-radius: 20px;
+    background-color: darkslategray;
+    border-color: slategrey;
+    color: white;
+}
+
+.minus {
+    background-color: indianred;
+    color: white;
+    border-color: darkred;
+}
+
+.plus {
+    background-color: chartreuse;
+    color: black;
+    border-color: darkgreen;
+}
