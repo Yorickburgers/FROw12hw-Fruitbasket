@@ -3,13 +3,19 @@
     flex-direction: row;
     align-items: center;
     border: 2px solid black;
-    border-radius: 10px;
+    border-radius: 20px;
     margin: 5px 0;
-    width: 400px;
+    max-width: 380px;
+    min-width: 250px;
     align-content: center;
     justify-content: center;
 }
 
 .fruitCounterContent button {
     margin: 10px;
+}
+
+.counterButton {
+    padding: 5px 8px 5px 8px;
+    border-radius: 20px;
 }

@@ -1,0 +1,8 @@
+.bigButton {
+    padding: 10px;
+    min-width: 250px;
+    border-radius: 20px;
+    border: 1px solid black;
+    margin: 10px;
+    cursor: pointer;
+}

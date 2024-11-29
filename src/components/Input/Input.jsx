@@ -6,6 +6,7 @@ function Input({inputID, inputLabel, inputType, value, updateCounter}) {
         <>
             <label htmlFor={inputID}>{inputLabel}
                 <input
+                    className="input"
                     type={inputType}
                     id={inputID}
                     name={inputID}
