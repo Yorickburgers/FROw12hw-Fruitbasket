@@ -18,4 +18,19 @@
 .counterButton {
     padding: 5px 8px 5px 8px;
     border-radius: 20px;
+    background-color: darkslategray;
+    border-color: slategrey;
+    color: white;
+}
+
+.minus {
+    background-color: indianred;
+    color: white;
+    border-color: darkred;
+}
+
+.plus {
+    background-color: chartreuse;
+    color: black;
+    border-color: darkgreen;
 }

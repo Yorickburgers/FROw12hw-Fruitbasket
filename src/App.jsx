@@ -87,7 +87,7 @@ function App() {
                     <Button
                         buttonType="button"
                         clickEvent={resetCounters}
-                        className="bigButton"
+                        className="bigButton resetButton"
                         buttonText="Reset"
                     />
                 </section>
@@ -145,13 +145,16 @@ function App() {
                                onChange={handleChange}/>'s avonds
                         </label>
                     </div>
-                    <Input
-                        inputID="comments"
-                        inputType="textarea"
-                        inputLabel="Opmerkingen"
+                    <label htmlFor="comments">Opmerkingen
+                    <textarea
+                        id="comments"
+                        name="comments"
                         value={formState.comments}
-                        updateCounter={handleChange}>
-                    </Input>
+                        onChange={handleChange}
+                        placeholder="Enter your comments here..."
+                    />
+                </label>
+
                     <label htmlFor="termsConditions">
                         <input type="checkbox" id="termsConditions" name="termsConditions"
                                value={formState.termsConditions}
@@ -159,7 +162,7 @@ function App() {
                     <Button
                         buttonType="button"
                         clickEvent={logResults}
-                        className="bigButton"
+                        className="bigButton submitButton"
                         buttonText="Verzend"
                     />{/*<label htmlFor="firstName">Voornaam
                     <input type="text" id="firstName" name="firstName" value={formState.firstName} onChange={handleChange}/></label>

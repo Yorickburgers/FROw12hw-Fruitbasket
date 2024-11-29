@@ -6,3 +6,13 @@
     margin: 10px;
     cursor: pointer;
 }
+
+.resetButton {
+    background-color: indianred;
+    color: white;
+}
+
+.submitButton {
+    background-color: cornflowerblue;
+    color: white;
+}
